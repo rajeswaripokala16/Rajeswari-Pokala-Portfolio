@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajeswari Pokala- Full Stack Java/Web Developer - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CS</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="animated-text" id="animated-text">Hi, I'm <span class="gradient-text">Rajeswari Pokala</span></span>
+                </h1>
+                <p class="hero-subtitle">Full-Stack Web/Java Developer</p>
+                <p class="hero-description">
+                Full Stack Developer building responsive, user-centric web applications with modern technologies like JavaScript, Node.js, Express.js, and MongoDB.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="/assets/RajeswariPokala.pdf" class="btn btn-secondary" id="download-resume">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img src="assets/images/Raji.jpeg" alt="Rajeswari Pokala" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I’m a passionate Web Developer and Computer Science student at Annamacharya Institute Of Technology and Sciences, Rajampet who enjoys turning ideas into interactive, visually appealing web experiences. I love working at the intersection of design and development, creating interfaces that are not only beautiful but also intuitive and user-centric. Constantly learning and experimenting, I aim to build meaningful digital experiences that make an impact.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <h4>B.Tech in Computer Science</h4>
+                                <p>Annamacharya Institute of Technology and Sciences, Rajampet</p>
+                                <p class="period">2023 - 2027</p>
+                                <p class="cgpa">CGPA: 8.64 / 10</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>Class XII (IPE)</h4>
+                                <p>Sri Padmavathi College,Rayachoty</p>
+                                <p class="period">2021 - 2023</p>
+                                <p class="percentage">84%</p>
+                            </div>
+                         
+                              <div class="education-item">
+                                <h4>Class X (SSC)</h4>
+                                <p>ZPHS,Sanipaya</p>
+                                <p class="period">2016 - 2021</p>
+                                <p class="percentage">10 Points</p>
+                            </div>
+
+                        </div>
+
+
+
+                         
+
+
+                        <div class="about-card">
+                            <h3>Experience</h3>
+                            <div class="experience-item">
+                                <h4> Devops Intern</h4>
+                                <p>JobPrep Services Pvt. Ltd.</p>
+                                <p class="period">March 24th 2025 - May 24th 2025</p>
+                                <ul>
+                                    <li>A DevOps Intern at JobPrep helps automate the build, test, and deployment of applications using CI/CD tools to speed up software releases</li>
+                                    <li>The intern works with cloud platforms, Docker, and basic scripting to set up and maintain development and production environments.</li>
+                                    <li>The role involves collaborating with developers to monitor systems, fix deployment issues, and improve the reliability and efficiency of the software delivery pipeline.</li>
+                                </ul>
+                            </div>
+                            <div class="experience-item">
+                                <h4>Cloud Computing(AWS) Intern</h4>
+                                <p>JobPrep Services Pvt. Ltd.</p>
+                                <p class="period">Jan 27th 2025 - Mar 15th 2025</p>
+                                <ul>
+                                    <li>Assist in building and managing AWS cloud resources (like EC2, S3, VPC, and IAM) to host and secure applications and services.</li>
+                                    <li>Support automation and deployment workflows using AWS tools and CI/CD concepts to make releases faster and more reliable.</li>
+                                    <li>Learn and apply cloud best practices such as scalability, monitoring with CloudWatch, and cost‑efficient infrastructure design while working with the development and DevOps teams.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-reveal">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">DSA(JAVA)</span>
+                        <span class="skill-tag">Java (Core & Advanced)</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">DOM Manipulation</span>
+                        <span class="skill-tag">CSS Animations</span>
+                        <span class="skill-tag">Servlets</span>
+                        <span class="skill-tag">JDBC</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Eclipse IDE</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">DSA (basics)</span>
+                        <span class="skill-tag">DBMS</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                           <i class="fa-duotone fa-solid fa-album-collection"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart AI Resume Analyser</h3>
+                        <p class="project-description">
+                            Resume-ATS-Check is a website that checks your resume.
+
+It tells you how well your resume fits a job and ATS systems.
+
+You upload your resume and get a score with suggestions.
+
+It shows missing skills or keywords to add.
+
+It helps you improve your resume before applying. 
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Packages</span>
+                            <span class="tech-tag">GoogileGemini-Trained</span>
+                            <span class="tech-tag">Streamlit-UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rajeswaripokala16/Resume-ATS-Check.git" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                          <i class="fa-sharp fa-solid fa-person-circle-question"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Unknown Faces Detect While In Meeting</h3>
+                        <p class="project-description">
+                            Faces-Detect-Unknown is a small face-detection and recognition project.
+
+It finds faces in images or video using OpenCV.
+
+Known faces are compared with a saved list of people.
+
+If a face doesn’t match anyone, it is labeled as “unknown.”
+
+It can be used as a basic security or intruder‑detection demo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Modules</span>
+                            <span class="tech-tag">Open Cv</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rajeswaripokala16/Faces-Detect-Unknown.git" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">3D-Model Gesture</h3>
+                        <p class="project-description">
+                           3D-Model-Gesture is a hand gesture control project.
+
+You use your hand movements to control 3D models on screen.
+
+It detects hand gestures and translates them into 3D model actions.
+
+Uses OpenCV for hand detection and tracking.
+
+Great for learning gesture recognition and 3D graphics together.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">3D-Model</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rajeswaripokala16/3D-Model-Gesture.git" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                 <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fa-sharp fa-solid fa-arrow-down-arrow-up"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Filter Switching Use Hand Gesture</h3>
+                        <p class="project-description">
+                         Load Image: Read an image using OpenCV.
+
+Apply Filters: The code has 12 different filters like blur, sketch, thermal, edge detection, etc.
+
+Filter Types: Each filter ID applies a different effect (thermal color, blur, emboss, pixelation, etc.).
+
+Return Result: Each filter function returns the modified image.
+
+Switch Filters: Change the filter ID to instantly see different effects on the same image.
+                        </p>
+                        <div class="project-tech">
+                            <!-- <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span> -->
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Open Cv</span>
+                             <!-- <span class="tech-tag"></span> -->
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rajeswaripokala16/Filter-Switching.git" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-reveal">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about web/Java Full Stack development. Feel free to reach out!</p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:rajeswaripokala16@gmail.com">rajeswaripokala16@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+91 9390745228">+91 9390745228</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/rajeswari-pokala-34aa8a29b" target="_blank">linkedin.com/rajeswari-pokala-34aa8a29b</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/rajeswaripokala16" target="_blank">github.com/Rajeswari-Pokala</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/rajeswaripokala16" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajeswari-pokala-34aa8a29b" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:rajeswaripokala16@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Rajeswari Pokala. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
